@@ -1,0 +1,162 @@
+.navbar{
+    display: flex;
+    border-bottom: solid black 1px;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    background-color:white;
+}
+
+.navbar-s1__one{
+    color: blueviolet;
+
+}
+
+.navbar-s2{
+    
+  padding: 10px;
+   border: solid black 1px; 
+    border-radius: 20px;
+    height:20px;
+    width: 60%;
+    display:flex;
+    gap:10px;
+    align-items: center;
+  
+}
+.navbar-s2 input{
+    width:250px;
+    border:none;
+
+}
+
+.navbar-s2 input:focus{
+  
+    outline:none;
+
+}
+
+.navbar-s3{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.categories p{
+background-color: blueviolet;
+
+border-radius: 20px;
+padding: 10px;
+color: white;
+cursor:pointer;
+}
+.categories{
+    display:flex;
+    padding: 5px;
+    gap:120px;
+    border-bottom: solid 1px black;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.categories p:hover{
+    
+  background-color:transparent;
+  transition: 2s;
+  color:pink;
+
+
+}
+.sales img{
+    width: 100%;;
+    height:400px;
+
+}
+.sales{
+    position: relative;
+}
+.sales__one{
+    border:solid 1px black;
+    width:300px;
+    padding: 10px;
+    position: absolute;
+    top:100px;
+    left:50px;
+    background-color: whitesmoke;
+    animation-name: zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes zoom{
+    0%{
+transform:scale(0);
+opacity:0;
+    }
+
+    100%{
+transform :scale(1);
+opacity: 1;
+    }
+}
+
+
+.mylearning{
+    position: relative;
+  cursor: pointer;
+}
+
+
+.popup{
+    width:100px;
+    border: 1px solid black;
+    position: absolute;
+    display:none;
+}
+.mylearning:hover .popup{
+    display:block;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card-display img{
+    height:  300px;
+    width: 200px;
+}
+    
+    .topics-content{
+display:flex;
+flex-wrap: wrap;
+gap: 10px;
+
+    }
+.topics-content p{
+    border: solid grey 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.card1-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card1-display img{
+    height: 300px;
+    width: 200px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding:20px;
+    
+}
+.footer-one{
+    display: flex;
+    gap:30px;
+    
+}
